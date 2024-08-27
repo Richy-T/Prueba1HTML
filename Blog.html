@@ -4,35 +4,42 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Richy">
+    <meta name="description" content="Mi Primera Web">
+    <meta name="keywords" content="Programacion, Web">
     <title>Blog</title>
 </head>
 
 <body>
-    <header>
-        <h1>INFORMACIÓN PERSONAL</h1>
+    <header style="background-color: rgb(215, 247, 236);">
+        <h1 style="color: brown; text-align: center;">INFORMACIÓN PERSONAL</h1>
         <hr>
         <br />
         <h3>Nombre : Ricardo Téllez</h3>
         <h3>Redes Sociales :</h3>
-        <a href="https://www.facebook.com/RichyTellezH" target="_blank"><img width="80px" height="80px"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYfRZOfRyyDskFIvBevwSIXv7vDjxMRl7_Jg&s"
-                alt="facebook" /></a>
+        <div style="text-align: center;">
+            <a href="https://www.facebook.com/RichyTellezH" target="_blank"><img width="80px" height="80px"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYfRZOfRyyDskFIvBevwSIXv7vDjxMRl7_Jg&s"
+                    alt="facebook" /></a>
 
-        <a href="http://www.linkedin.com/in/ricardo-téllez-huertas-8029683a" target="_blank"><img width="80px"
-                height="80px"
-                src="https://w7.pngwing.com/pngs/46/539/png-transparent-linkedin-logo-media-sns-social-social-links-icon.png"
-                alt="WhatsApp" /></a>
+            <a href="http://www.linkedin.com/in/ricardo-téllez-huertas-8029683a" target="_blank"><img width="80px"
+                    height="80px"
+                    src="https://w7.pngwing.com/pngs/46/539/png-transparent-linkedin-logo-media-sns-social-social-links-icon.png"
+                    alt="WhatsApp" /></a>
 
-        <a href="https://wa.link/tifa4u" target="_blank"><img width="85px" height="85px"
-                src="https://e7.pngegg.com/pngimages/68/505/png-clipart-whatsapp-message-icon-whatsapp-logo-whatsapp-logo-text-logo-thumbnail.png"
-                alt="WhatsApp" /></a>
+            <a href="https://wa.link/tifa4u" target="_blank"><img width="85px" height="85px"
+                    src="https://e7.pngegg.com/pngimages/68/505/png-clipart-whatsapp-message-icon-whatsapp-logo-whatsapp-logo-text-logo-thumbnail.png"
+                    alt="WhatsApp" /></a>
+        </div>
     </header><br>
     <hr>
     <section>
         <article>
-            <fieldset>
-                <legend>Pasatiempos</legend>
-                <table>
+            <fieldset id="ps1" style="text-align: center; color: rgb(223, 26, 59); border: 1px solid;">
+                <legend>
+                    <h3>PASATIEMPOS</h3>
+                </legend>
+                <table align="center" style="text-align: center; color: rgb(226, 133, 10);">
                     <tbody>
                         <tr>
                             <td>
@@ -67,10 +74,12 @@
                 </table>
             </fieldset>
         </article>
-        <article>
-            <fieldset>
-                <legend>Comidas Favoritas</legend>
-                <table>
+        <article style="background-color: rgb(214, 255, 241);">
+            <fieldset id="ps2" style="text-align: center; color: rgb(170, 30, 53); border: 1px solid;">
+                <legend>
+                    <H3>COMIDAS FAVORITAS</H3>
+                </legend>
+                <table align="center" ; style="color: rgb(226, 133, 10);">
                     <tr>
                         <th><a href="https://pastaslamuneca.com/recetas/lasana-en-salsa-bechamel/"
                                 target="_blank">Lasaña</a></th>
@@ -93,9 +102,11 @@
             </fieldset>
         </article>
         <article>
-            <fieldset>
-                <legend>Destinos que he Visitado</legend>
-                <table>
+            <fieldset id="ps3" style="text-align: center; color: rgb(124, 4, 24); border: 1px solid;">
+                <legend>
+                    <h3>DESTINOS QUE HE VISITADO</h3>
+                </legend>
+                <table align="center">
                     <tbody>
                         <tr>
                             <td>
@@ -134,9 +145,12 @@
             </fieldset>
         </article>
         <article>
-            <fieldset>
-                <legend>Países que me gustaría conocer</legend>
-                <table border="">
+            <fieldset id="ps4" style="text-align: center; color: rgb(224, 123, 28); border: 1px solid;">
+                <legend>
+                    <h3>PAISES QUE ME GUSTARÍA CONOCER</h3>
+                </legend>
+                <table border="" align="center" ;
+                    style="background-color: rgb(218, 247, 237); border-color: rgb(102, 22, 206);">
                     <tbody>
                         <tr>
                             <td>
@@ -188,12 +202,26 @@
         </article>
     </section>
     <hr>
-    <br>Información de Contacto
-    <br><br>
-    <p>Contactame por : <a href="mailto:Emaildepruba@gmail.com">E-mail</a></p>
-    <p>Contactame por : <a href="tel:57 3102435566">Telefono</a></p>
-    <p>Todos los derechos reservados</p>
-    </tfoot>
+
+    <footer style="text-align: center; background-color: rgb(240, 231, 220);">
+        <br>
+        <h3
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            INFORMACIÓN DE CONTACTO</h3>
+        <br><br>
+
+        <!--  Direccionar dentro de mi propia pagina -->
+       
+            <a href="#ps1" style="color: rgb(42, 165, 104);">Pasatiempo 1</a>
+            <a href="#ps2" style="color: rgb(42, 165, 104);">Pasatiempo 2</a>
+            <a href="#ps3" style="color: rgb(42, 165, 104);">Pasatiempo 3</a>
+            <a href="#ps4" style="color: rgb(42, 165, 104);">Pasatiempo 4</a>
+       
+
+        <p>Contactame por : <a href="mailto:Emaildepruba@gmail.com">E-mail</a></p>
+        <p>Contactame por : <a href="tel:57 3102435566">Telefono</a></p>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Todos los derechos reservados</p>
+    </footer>
 </body>
 
 </html>
