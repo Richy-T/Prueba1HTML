@@ -1,0 +1,49 @@
+table {
+
+    width: fit-content;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-collapse: separate;
+    color: #000;
+
+}
+
+.Bseccion {
+    text-align: center;
+    color: #630066;
+
+}
+
+#cabeza,
+tr {
+    background-color: #e4f7f8;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(172, 187, 219);
+
+}
+
+td {
+    border: 1px solid #000;
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(80, 19, 109);
+}
+
+p,
+ul {
+    color: rgb(75, 59, 14);
+    text-align: left;
+}
+
+h4 {
+    color: rgb(9, 6, 179);
+}
+
+h2 {
+    color: black;
+}
