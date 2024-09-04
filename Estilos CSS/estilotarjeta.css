@@ -1,0 +1,107 @@
+header {
+    background-color: #222;
+    padding: 1px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+body {
+    background-color: rgb(238, 238, 123);
+    /*Aplica para el fondo de toda la pagina*/
+    margin: 0;
+    /* Eliminar el margen ue viene predeterminado*/
+    padding: 0;
+    /* Eliminar los espacios*/
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    /* Organizar los hijos de forma flexible*/
+    flex-direction: column;
+    /* Alinea los elementos en Columna*/
+    align-items: center;
+    /* Centra los artículos*/
+    gap: 20px;
+    /* Espacio entre los artículos*/
+
+}
+
+section article {
+
+    transition: box-shadow 0.3s ease;
+    /* Aplica una transición suave de 0.3segundos*/
+    background-color: #fff;
+    /* Establece color blanco*/
+    margin: 16px 0;
+    /* Agrega margen vertical*/
+    border-radius: 10px;
+    /* Redondea las esquinas del articulo*/
+    padding: 4px 0;
+    /* Espacio*/
+    cursor: pointer;
+    /* Cambia el estilo del cursos*/
+
+}
+
+/* El hover es un estilo que se aplica cuando el usuario pasa el cursor sobre el elemento */
+section article:hover {
+    box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3)
+        /* aplica estilo sombra sobre el elemento*/
+
+}
+
+/* 
+Para dar estilos a dos o mas etiquetas de la misma sección 
+debemos colocar una (, coma) y dar la ruta para el la otra etiqueta */
+
+/* section article h2, section article p{
+    margin: 16px;
+    text-align: center;
+} */
+
+section article h2 {
+    margin: 16px;
+    text-align: center;
+
+}
+
+section article p {
+    margin: 16px;
+
+}
+
+footer {
+    background-color: #222;
+    padding: 48px;
+    color: #fff;
+}
+
+/* Alinear todos los derechos de autor y los enlaces */
+
+footer p {
+    margin: 0;
+}
+
+footer section {
+    float: right;
+    margin: 0;
+
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: brown;
+
+}
